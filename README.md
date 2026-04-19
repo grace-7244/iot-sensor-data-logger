@@ -42,17 +42,20 @@ iot-data-logger/
    cd iot-data-logger
 
 2. Create and activate virtual environment (Recommended):
-   Bash
+   ```Bash
    python -m venv venv
    venv\Scripts\Activate.ps1     # Windows
 
 3. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 
-4. Generate sample sensor data:
+5. Generate sample sensor data:
+   ```bash
    python data_generator.py
 
-5. Run the dashboard:
+7. Run the dashboard:
+   ```bash
    streamlit run app.py
 
   ## 📊 What You Will See
