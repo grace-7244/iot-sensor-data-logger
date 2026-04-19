@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+streamlit
+plotly
+
+# To install the required packages, run: 
+pip install pandas numpy plotly streamlit scikit-learn
+# To run the Streamlit app, use the command:
+python -m streamlit run app.py
